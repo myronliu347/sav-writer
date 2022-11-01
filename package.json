@@ -1,0 +1,28 @@
+{
+  "name": "sav-writer",
+  "version": "1.0.0",
+  "description": "write spss file (.sav)",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "keywords": [
+    "sav",
+    "spss"
+  ],
+  "author": "myronliu",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.8",
+    "ts-node": "^10.9.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.8.4"
+  }
+}
